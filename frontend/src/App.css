@@ -1,0 +1,25 @@
+body {
+    background: #f4f7fc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-section {
+    height: 60vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.card {
+    border-radius: 15px;
+}
+
+input {
+    height: 50px;
+}
+
+.btn-success {
+    border-radius: 30px;
+}
+
+.alert {
+    border-radius: 15px;
+}

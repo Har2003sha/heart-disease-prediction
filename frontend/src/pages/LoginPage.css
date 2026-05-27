@@ -1,0 +1,68 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #1e293b, #0f172a);
+}
+
+.login-card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+  transform: perspective(1000px) rotateX(5deg);
+  transition: 0.4s;
+}
+
+.login-card:hover {
+  transform: perspective(1000px) rotateX(0deg) scale(1.02);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #2563eb;
+  transform: scale(1.05);
+}
+
+.social-login button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.google-btn {
+  background: white;
+  color: black;
+}
+
+.facebook-btn {
+  background: #1877f2;
+  color: white;
+}
